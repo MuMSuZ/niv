@@ -1,3 +1,4 @@
+/* Genel Stil */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,32 +6,55 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Başlık ve Navigasyon */
 header {
-    background-color: #333;
+    background-color: #0044cc;
     color: #fff;
     padding: 1em 0;
     text-align: center;
 }
 
+header h1 {
+    margin: 0;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Ana İçerik */
 main {
     padding: 2em;
+    background-color: #fff;
+    max-width: 800px;
+    margin: 2em auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
+main h2 {
+    color: #0044cc;
+}
+
+/* Footer */
 footer {
     background-color: #333;
     color: #fff;
@@ -39,4 +63,21 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+/* Ek Stiller */
+section {
+    margin-bottom: 2em;
+}
+
+section#services ul {
+    padding: 0;
+    list-style: none;
+}
+
+section#services ul li {
+    background-color: #e0e0e0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
 }
