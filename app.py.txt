@@ -48,4 +48,4 @@ def calculate():
         return render_template('index.html', result="Lütfen geçerli sayılar giriniz.")
 
 if __name__ == '__main__':
-     serve(app, host='0.0.0.0', port=8000)  # Waitress ile çalıştırma
+     serve(app, host='0.0.0.0', port=8080)  # Waitress ile çalıştırma
