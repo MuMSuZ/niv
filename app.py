@@ -18,7 +18,7 @@ niv_sureleri = np.array([100, 52, 79, 50, 90, 92, 73, 73, 13, 9, 16, 7, 20, 13, 
 scaler_X = StandardScaler()
 scaler_y = StandardScaler()
 X_scaled = scaler_X.fit_transform(dtf_degerleri.reshape(-1, 1))
-y_scaled = scaler_y.fit_transform(niv_sureleri.reshape(-1, 1)).ravel()  # Burada ravel() kullanılıyor
+y_scaled = scaler_y.fit_transform(niv_sureleri.reshape(-1, 1)).ravel()
 
 # SVR modelini oluşturma ve eğitme
 model = SVR(kernel='rbf', C=100, gamma=0.1, epsilon=.1)
@@ -48,4 +48,4 @@ def calculate():
         return render_template('index.html', result="Lütfen geçerli sayılar giriniz.")
 
 if __name__ == '__main__':
-     serve(app, host='0.0.0.0', port=8080)  # Waitress ile çalıştırma
+    serve(app, host='0.0.0.0', port=8080)
