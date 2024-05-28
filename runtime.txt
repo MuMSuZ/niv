@@ -1,1 +1,17 @@
+<<<<<<< HEAD
 python-3.9.19
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+python-3.9.19
+=======
+python-3.9.19
+>>>>>>> 20848b4 (Initial commit)
+=======
+<<<<<<< HEAD
+python-3.9.19
+=======
+python-3.9.19
+>>>>>>> 20848b4 (Initial commit)
+>>>>>>> 72e4523 (Commit your changes before pulling)
+>>>>>>> 424a52e (Commit your changes before pulling)
