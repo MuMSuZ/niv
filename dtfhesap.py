@@ -45,9 +45,9 @@ def calculate():
         niv_tahmin_scaled = model.predict(dtf_scaled)
         niv_tahmin = scaler_y.inverse_transform(niv_tahmin_scaled.reshape(-1, 1)).ravel()
         result = f"DKF (%): {dtf:.2f}\n\nTahmini NIV süresi (saat): {niv_tahmin[0]:.2f}"
-        return render_template('index.html', result=result)
+        return render_template('hesaplamalar.html', result=result)
     except ValueError:
-        return render_template('index.html', result="Lütfen geçerli sayılar giriniz.")
+        return render_template('hesaplamalar.html', result="Lütfen geçerli sayılar giriniz.")
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 8080))
