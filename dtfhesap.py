@@ -25,9 +25,9 @@ y_scaled = scaler_y.fit_transform(niv_sureleri.reshape(-1, 1))
 model = SVR(kernel='rbf', C=100, gamma=0.1, epsilon=.1)
 model.fit(X_scaled, y_scaled)
 
-@app.route('/')
-def home():
-    return render_template('index.html')
+@app.route('/hesaplamalar')
+def hesaplamalar():
+    return render_template('hesaplamalar.html')
 
 @app.route('/calculate', methods=['POST'])
 def calculate():
