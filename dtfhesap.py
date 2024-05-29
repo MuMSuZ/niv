@@ -30,8 +30,8 @@ def home():
     return render_template('index.html')
 
 @app.route('/hesaplamalar')
-def hesaplamalar():
-    return render_template('hesaplamalar.html')
+def nivsure():
+    return render_template('nivsure.html')
 
 @app.route('/calculate', methods=['POST'])
 def calculate():
