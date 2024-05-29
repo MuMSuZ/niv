@@ -29,7 +29,7 @@ model.fit(X_scaled, y_scaled)
 def hesaplama():
     return render_template('hesaplama.html')
 
-@app.route('/hesaplamalar')
+@app.route('/nivsure')
 def nivsure():
     return render_template('nivsure.html')
 
@@ -39,15 +39,15 @@ def calculate():
         inspiryum_kalinligi = float(request.form['inspiryum'])
         ekspiryum_kalinligi = float(request.form['ekspiryum'])
         if ekspiryum_kalinligi == 0:
-            return render_template('index.html', result="Ekspiryum kalınlığı 0 olamaz.")
+            return render_template('nivsure.html', result="Ekspiryum kalınlığı 0 olamaz.")
         dtf = ((inspiryum_kalinligi - ekspiryum_kalinligi) / ekspiryum_kalinligi) * 100
         dtf_scaled = scaler_X.transform(np.array([[dtf]]))
         niv_tahmin_scaled = model.predict(dtf_scaled)
         niv_tahmin = scaler_y.inverse_transform(niv_tahmin_scaled.reshape(-1, 1)).ravel()
         result = f"DKF (%): {dtf:.2f}\n\nTahmini NIV süresi (saat): {niv_tahmin[0]:.2f}"
-        return render_template('hesaplamalar.html', result=result)
+        return render_template('nivsure.html', result=result)
     except ValueError:
-        return render_template('hesaplamalar.html', result="Lütfen geçerli sayılar giriniz.")
+        return render_template('nivsure.html', result="Lütfen geçerli sayılar giriniz.")
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 8080))
