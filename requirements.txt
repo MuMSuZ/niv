@@ -1,0 +1,4 @@
+Flask
+Waitress
+numpy
+scikit-learn
