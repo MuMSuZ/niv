@@ -94,7 +94,7 @@ footer {
 }
 
 .form-group input {
-    flex: 1;
+    flex: 0.5;
 }
 
 .btn-primary {
