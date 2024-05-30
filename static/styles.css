@@ -64,6 +64,15 @@ nav ul li a:hover {
     max-width: 800px;
 }
 
+.container-hesap {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,o.1);
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
 footer {
     text-align: center;
     font-size: 0.9em;
