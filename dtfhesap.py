@@ -44,7 +44,7 @@ def calculate():
         dtf_scaled = scaler_X.transform(np.array([[dtf]]))
         niv_tahmin_scaled = model.predict(dtf_scaled)
         niv_tahmin = scaler_y.inverse_transform(niv_tahmin_scaled.reshape(-1, 1)).ravel()
-        result = f"DKF (%): {dtf:.2f}\n\nTahmini NIV süresi (saat): {niv_tahmin[0]:.2f}"
+        result = f"DKF (%): {dtf:.2f}<br><br>Tahmini NIV süresi (saat): {niv_tahmin[0]:.2f}"
         return render_template('nivsure.html', result=result)
     except ValueError:
         return render_template('nivsure.html', result="Lütfen geçerli sayılar giriniz.")
