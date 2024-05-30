@@ -67,8 +67,9 @@ nav ul li a:hover {
 .button-container {
     display: flex;
     justify-content: right; /* Ortalar */
-    padding-top: 30px;
+    padding-top: 20px;
     border-top: 1px solid #ddd;
+    padding-right: 40px;
 }
 
 footer {
@@ -98,7 +99,7 @@ footer {
 
 .form-group input {
     flex: 0.3;
-    padding: 10px 0 0 0;
+    padding-right: 20px;
 }
 
 .btn-primary {
