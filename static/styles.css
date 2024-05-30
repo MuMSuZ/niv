@@ -89,6 +89,12 @@ footer {
     background-color: white;
 }
 
+.input {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: right;
+    background-color: white;
+}
 .flex-item {
     background-color: lightblue;
     margin: 10px;
