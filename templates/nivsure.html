@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahmini NIV Süresi</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tahmini NIV Süresi</h1>
+        </div>
+    </header>
+    <div class="container mt-5">
+        <form action="/calculate" method="post">
+            <div class="form-group">
+                <label for="inspiryum">Inspiryum Sonu Diyafram Kalınlığı (mm):</label> 
+                <input type="text" class="form-control" id="inspiryum" name="inspiryum">
+            </div>
+            <div class="form-group">
+                <label for="ekspiryum">Ekspiryum Sonu Diyafram Kalınlığı (mm):</label>
+                <input type="text" class="form-control" id="ekspiryum" name="ekspiryum">
+            </div>
+            <div class="button-container">
+                <button type="submit" class="btn btn-primary">Hesapla</button>
+            </div>
+        </form>
+        {% if result %}
+        <div class="result mt-4">
+            <h4>Sonuç:</h4>
+            <p><strong>DKF (%):</strong> {{ result.dtf|round(2) }}</p>
+            <p><strong>Tahmini NIV süresi (saat):</strong> {{ result.niv_suresi|round(2) }}</p>
+
+        </div>
+        {% endif %}
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Ayla LTD</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,131 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: white; /* Beyaz arka plan */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .container {
+    background-color: #6a0dad; /* Mor arka plan */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #4b0082;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: right; /* Ortalar */
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-right: 40px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    padding-top: 40px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+}
+
+.form-group {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.form-group label {
+    flex: 2;
+    margin-right: 10px;
+    padding: 0 0 0 10px;
+    text-align: left;
+}
+
+.form-group input {
+    flex: 0.3;
+    padding-right: 20px;
+}
+
+.btn-primary {
+    background-color: #6a0dad; /* Mor arka plan */
+    color: white; /* Beyaz yazı */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #4b0082;
+}
+
+.result {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em
+}
+
+.result p {
+    margin: 5px 0; /* Paragraflar arasında boşluk */
+}
+
