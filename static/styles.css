@@ -90,11 +90,11 @@ footer {
 }
 
 .form-group label {
-    flex: 2;
+    flex: 4;
 }
 
 .form-group input {
-    flex: 0.5;
+    flex: 0.3;
 }
 
 .btn-primary {
