@@ -27,7 +27,7 @@ header {
 }
 
 header .container {
-    background-color: #87CEEB;
+    background-color: #4682B4;
     color: white;
     padding: 20px;
     border-radius: 8px;
@@ -51,7 +51,7 @@ header h1 {
     display: block;
     padding: 10px 15px;
     margin-bottom: 10px;
-    background-color: #87CEEB;
+    background-color: #4682B4;
     color: white;
     text-decoration: none;
     border-radius: 5px;
