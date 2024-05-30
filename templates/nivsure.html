@@ -29,9 +29,7 @@
         {% if result %}
         <div class="result mt-4">
             <h4>Sonuç:</h4>
-            <p><strong>DKF (%):</strong> {{ result.dtf|round(2) }}</p>
-            <p><strong>Tahmini NIV süresi (saat):</strong> {{ result.niv_suresi|round(2) }}</p>
-
+            <p>{{ result|safe }}</p>
         </div>
         {% endif %}
     </div>
