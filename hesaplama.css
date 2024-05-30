@@ -1,0 +1,73 @@
+/* Tüm öğelerin varsayılan margin ve padding değerlerini sıfırlar, box-sizing'i border-box olarak ayarlar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HTML ve body öğelerinin tam yükseklikte olmasını sağlar ve flexbox ile düzenler */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ana kapsayıcıyı dikeyde esnek bir şekilde düzenler */
+.container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+/* Header stilini ayarlar */
+header {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .container {
+    background-color: #6a0dad;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* List group stilini ayarlar */
+.list-group {
+    margin-top: 20px;
+}
+
+.list-group a {
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #6a0dad;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.list-group a:hover {
+    background-color: #4b0082;
+}
+
+/* Footer stilini ayarlar ve her zaman en altta durmasını sağlar */
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
