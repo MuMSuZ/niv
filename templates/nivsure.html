@@ -1,4 +1,4 @@
-ap<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
@@ -7,10 +7,10 @@ ap<!DOCTYPE html>
     <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
-    <header class="bg-primary text-white text-center py-5">
-      <div class="container">
-        <h1>Tahmini NIV Süresi</h1>
-      </div>
+    <header>
+        <div class="container">
+            <h1>Tahmini NIV Süresi</h1>
+        </div>
     </header>
     <div class="container mt-5">
         <form action="/calculate" method="post">
@@ -22,15 +22,19 @@ ap<!DOCTYPE html>
                 <label for="ekspiryum">Ekspiryum Sonu Diyafram Kalınlığı (mm):</label>
                 <input type="text" class="form-control" id="ekspiryum" name="ekspiryum">
             </div>
-            
-            <div class="container-hesap">
-                <button class="bg-primary text-white text-center py-5" type="submit" class="btn btn-primary">Hesapla</button>
+            <div class="button-container">
+                <button type="submit" class="btn btn-primary">Hesapla</button>
             </div>
         </form>
-        <p>{{ result }}</p>
+        {% if result %}
+        <div class="result mt-4">
+            <h4>Sonuç:</h4>
+            <p>{{ result|safe }}</p>
+        </div>
+        {% endif %}
     </div>
-    <footer class="bg-light text-center py-3">
-        <p>&copy; 2024 Ayla LTD</p>
+    <footer class="footer">
+        <p>&copy; 2024</p>
     </footer>
 </body>
 </html>
