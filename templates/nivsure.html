@@ -3,17 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DTF ve Tahmini NIV Süresi. - Dr. Faig TEYMURLU</title>
+    <title>Tahmini NIV Süresi - Dr. Faig TEYMURLU</title>
+    <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
-    <h1>DTF ve Tahmini NIV Süresi</h1>
-    <form action="/calculate" method="post">
-        <label for="inspiryum">Inspiryum Sonu Diyafram Kalınlığı (mm):</label>
-        <input type="text" id="inspiryum" name="inspiryum"><br><br>
-        <label for="ekspiryum">Ekspiryum Sonu Diyafram Kalınlığı (mm):</label>
-        <input type="text" id="ekspiryum" name="ekspiryum"><br><br>
-        <input type="submit" value="Hesapla">
-    </form>
-    <p>{{ result }}</p>
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Tahmini NIV Süresi</h1>
+    </header>
+    <div class="container mt-5">
+        <form action="/calculate" method="post">
+            <div class="form-group">
+                <label for="inspiryum">Inspiryum Sonu Diyafram Kalınlığı (mm):</label>
+                <input type="text" class="form-control" id="inspiryum" name="inspiryum">
+            </div>
+            <div class="form-group">
+                <label for="ekspiryum">Ekspiryum Sonu Diyafram Kalınlığı (mm):</label>
+                <input type="text" class="form-control" id="ekspiryum" name="ekspiryum">
+            </div>
+            <button type="submit" class="btn btn-primary">Hesapla</button>
+        </form>
+        <p>{{ result }}</p>
+    </div>
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024</p>
+    </footer>
 </body>
 </html>
