@@ -8,10 +8,16 @@ body {
 }
 
 header {
-    background-color: #007BFF;
+    background-color: #6a0dad; /* Mor renk */
     color: white;
     padding: 20px 0;
     text-align: center;
+}
+
+header .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 header h1 {
@@ -46,7 +52,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #0056b3;
+    background-color: #4b0082;
 }
 
 .container {
@@ -72,10 +78,10 @@ footer {
 }
 
 .btn-primary {
-    background-color: #007BFF;
+    background-color: #6a0dad; /* Mor renk */
     border: none;
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
+    background-color: #4b0082;
 }
