@@ -85,13 +85,13 @@ footer {
     font-size: 1.2em;
     margin-bottom: 20px;
     display: flex;
-    justify-content: right ; /* sağ */
+    justify-content: left ; /* sol */
     background-color: white;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1)
 }
 
-.flex {
+.flex-item {
     background-color: lightblue;
     margin: 10px;
     padding: 20px;
