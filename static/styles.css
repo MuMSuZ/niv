@@ -69,7 +69,7 @@ nav ul li a:hover {
     justify-content: center; /* Butonu ortalar */
     background-color: white;
     border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,o.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 10px;
     margin: 10px auto;
     max-width: 800px;
