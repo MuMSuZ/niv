@@ -68,6 +68,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: right; /* Ortalar */
     margin-top: 30px;
+    border-top: 5px solid #ddd;
 }
 
 footer {
@@ -86,7 +87,6 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: white;
-    border-top: 1px solid #ddd;
 }
 
 .form-group label {
