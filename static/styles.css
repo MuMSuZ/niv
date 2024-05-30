@@ -75,6 +75,13 @@ nav ul li a:hover {
     max-width: 800px;
 }
 
+button .container-hesap {
+    background-color: #6a0dad; /* Mor arka plan */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
 footer {
     text-align: center;
     font-size: 0.9em;
