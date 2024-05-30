@@ -8,16 +8,16 @@ body {
 }
 
 header {
-    background-color: #6a0dad; /* Mor renk */
-    color: white;
+    background-color: white; /* Beyaz arka plan */
     padding: 20px 0;
     text-align: center;
 }
 
 header .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px;
+    background-color: #6a0dad; /* Mor arka plan */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 header h1 {
@@ -84,4 +84,12 @@ footer {
 
 .btn-primary:hover {
     background-color: #4b0082;
+}
+
+.result {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
