@@ -64,22 +64,10 @@ nav ul li a:hover {
     max-width: 800px;
 }
 
-.container-hesap {
+.button-container {
     display: flex;
-    justify-content: center; /* Butonu ortalar */
-    background-color: white;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    padding: 10px;
-    margin: 10px auto;
-    max-width: 800px;
-}
-
-button .container-hesap {
-    background-color: #6a0dad; /* Mor arka plan */
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
+    justify-content: center; /* Ortalar */
+    margin-top: 20px;
 }
 
 footer {
@@ -96,8 +84,13 @@ footer {
 }
 
 .btn-primary {
-    background-color: #6a0dad; /* Mor renk */
+    background-color: #6a0dad; /* Mor arka plan */
+    color: white; /* Beyaz yazı */
     border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .btn-primary:hover {
