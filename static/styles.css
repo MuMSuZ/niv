@@ -91,12 +91,10 @@ footer {
 
 .form-group label {
     flex: 2;
-    margin-right: 20px;
 }
 
 .form-group input {
     flex: 1;
-    padding: 1px;
 }
 
 .btn-primary {
