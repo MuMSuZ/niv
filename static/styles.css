@@ -82,15 +82,16 @@ footer {
 
 .form-group {
     margin-bottom: 15px;
-}
-
-.input {
     margin-bottom: 15px;
     display: flex;
-    justify-content: right; /* Sağ */
+    justify-input: right ; /* sağ */
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+}
+
+.input {
+    
 }
 
 .btn-primary {
