@@ -66,14 +66,6 @@ nav ul li a:hover {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-}
-
-.group-container {
-    display: flex;
-    justify-content: left; /* Ortalar */
-    padding-top: 20px;
-    border-top: 1px solid #ddd;
-    padding-right: 40px;
     text-decoration: none;
 }
 
