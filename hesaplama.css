@@ -25,7 +25,7 @@ header h1 {
     font-size: 2em;
 }
 
-header h2 {
+header a {
     text-decoration: none;
     text-size: 1.2em
 }
