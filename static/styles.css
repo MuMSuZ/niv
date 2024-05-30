@@ -82,6 +82,8 @@ footer {
 
 .form-group {
     margin-bottom: 15px;
+    display: flex;
+    justify-content: right; /* Sağ */
 }
 
 .btn-primary {
