@@ -67,7 +67,8 @@ nav ul li a:hover {
 .button-container {
     display: flex;
     justify-content: right; /* Ortalar */
-    margin-top: 20px;  
+    margin-top: 20px;
+    flex: 0.3;
 }
 
 footer {
