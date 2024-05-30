@@ -87,8 +87,6 @@ footer {
     display: flex;
     justify-content: left ; /* sol */
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1)
 }
 
 .flex-item {
@@ -103,7 +101,7 @@ footer {
     color: white; /* Beyaz yazı */
     border: none;
     padding: 10px 20px;
-    font-size: 1em;
+    font-size: 1.2em;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -116,6 +114,7 @@ footer {
     background-color: #f0f0f0;
     border-radius: 8px;
     padding: 15px;
-    margin-top: 15px;
+    margin-top: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em
 }
