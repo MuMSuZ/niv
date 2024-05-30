@@ -76,7 +76,7 @@ footer {
     text-align: center;
     font-size: 0.9em;
     color: #777;
-    padding-top: 40px;
+    padding-top: 20px;
     background-color: #f4f4f4;
     border-top: 1px solid #ddd;
 }
@@ -123,9 +123,5 @@ footer {
     margin-top: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 1.2em
-}
-
-.result p {
-    margin: 5px 0; /* Paragraflar arasında boşluk */
 }
 
