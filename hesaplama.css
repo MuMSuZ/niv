@@ -27,6 +27,7 @@ header h1 {
 
 header h2 {
     text-decoration: none;
+    text-size: 1.2em
 }
 header p {
     margin: 10px 0 0;
@@ -69,10 +70,11 @@ nav ul li a:hover {
 
 .group-container {
     display: flex;
-    justify-content: right; /* Ortalar */
+    justify-content: left; /* Ortalar */
     padding-top: 20px;
     border-top: 1px solid #ddd;
     padding-right: 40px;
+    text-decoration: none;
 }
 
 footer {
