@@ -142,17 +142,6 @@ footer {
     text-decoration: none;
 }
 
-.btn-primary {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
-}
-
-.btn-primary:hover {
-    color: #fff;
-    background-color: #0056b3;
-    border-color: #004085;
-}
 
 .btn-secondary {
     color: #fff;
