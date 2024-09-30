@@ -88,7 +88,7 @@ li a:hover {
     text-decoration: none;
 }
 
-.btn-primary {
+.calculate-btn {
     background-color: #326872; /* Mor arka plan */
     color: white; /* Beyaz yazı */
     border: none;
@@ -98,7 +98,7 @@ li a:hover {
     cursor: pointer;
 }
 
-.btn-primary:hover {
+.calculate-btn:hover {
     background-color: #326c72;
 }
 
