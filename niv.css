@@ -1,0 +1,276 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    padding-top: 20px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+header .container {
+    background-color: #326872;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+li a {
+    text-decoration: none;
+    color: #326872;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #326c72;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #326872; /* Mor arka plan */
+    color: white; /* Beyaz yazı */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #326c72;
+}
+
+.back-button {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.back-button:hover {
+    background-color: #5a6268;
+}
+
+/* Bilgi Kısmı*/
+
+a {
+    text-decoration: none;
+}
+
+.bilgi-link {
+    font-style: italic;
+    color: #5277f1
+}
+
+.indented-text {
+    text-indent: 20px;
+    text-align: left;
+}
+
+.space {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Akordiyon Stili */
+
+.accordion {
+    background-color: #f9f9f9;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px 0;
+    font-family: 'Calibri', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.accordion .arrow {
+    float: right;
+    transition: transform 0.4s;
+}
+
+.arrow {
+    color: #326872;
+    font-weight: bold;
+}
+
+.accordion.active .arrow {
+    transform: rotate(90deg);
+}
+
+.panel, .alt-panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.panel.show, .alt-panel.show {
+    display: block;
+}
+
+/* Kaydırma Stilleri*/
+
+.detay {
+    margin: 20px;
+    margin-top: 20px;
+}
+
+/* Metin renkleri*/
+
+.red { color: red; }
+.blue { color: blue; }
+.green { color: green; }
+.amber { color: #ffbf00; }
+.bluegreen { color: #0d98ba; }
+.chamois { color: #F7AE62; }
+.coralblue { color: #5277f1; }
+.redorange { color: #FF3F34; }
+
+/* Metin Özellikleri */
+
+.bold { font-weight: bold; }
+
+.italic { font-style: italic; }
+
+.indent {
+    display: block; 
+    text-indent: 2em;
+}
+
+.spaced-text {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.indented-bolum {
+    display: block;
+    text-indent: 4em;
+}
+
+.margin-top { margin-top: 20px; }
+
+.margin-bottom { margin-bottom: 20px; }
+
+/* Modal stil tanımları */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Saydam modal içeriği  (background-color: rgba(255, 255, 255, 0.8)) */
+
+.modal-content {
+    background-color: #fefefe; 
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 50px auto;
+    max-width: 800px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
