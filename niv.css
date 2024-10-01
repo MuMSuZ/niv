@@ -96,9 +96,39 @@ header .container {
     background-color: #5a6268;
 }
 
-label {
-    text-size: 1,5 em;
+/*Form-group*/
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
     text-align: center;
+    font-size: 1em;
+    margin-bottom: 20px;  
+    background-color: white;
+}
+
+.form-group label {
+    flex: 2;
+    margin: 10px 20px auto;
+    padding: 10px 20px;
+    text-align: left;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-group span {
+    margin: center;
+    padding: 0px 20px;    
+}
+
+.form-group input {
+    flex: 1;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 2px;
 }
 
 /* Bilgi Kısmı*/
