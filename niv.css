@@ -92,6 +92,7 @@ li a:hover {
     background-color: #326872; /* Mor arka plan */
     color: white; /* Beyaz yazı */
     border: none;
+    text-align: center;
     padding: 10px 20px;
     font-size: 1.2em;
     border-radius: 5px;
