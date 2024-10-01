@@ -49,29 +49,6 @@ header .container {
     border-radius: 8px;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    background-color: #f9f9f9;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-li a {
-    text-decoration: none;
-    color: #326872;
-    font-weight: bold;
-}
-
-li a:hover {
-    color: #326c72;
-}
-
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -119,6 +96,10 @@ li a:hover {
     background-color: #5a6268;
 }
 
+label {
+    text-size: 1,5 em
+}
+
 /* Bilgi Kısmı*/
 
 a {
@@ -142,57 +123,8 @@ a {
     margin-right: 20px;
 }
 
-/* Akordiyon Stili */
 
-.accordion {
-    background-color: #f9f9f9;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    transition: 0.4s;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin: 10px 0;
-    font-family: 'Calibri', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-}
 
-.accordion .arrow {
-    float: right;
-    transition: transform 0.4s;
-}
-
-.arrow {
-    color: #326872;
-    font-weight: bold;
-}
-
-.accordion.active .arrow {
-    transform: rotate(90deg);
-}
-
-.panel, .alt-panel {
-    padding: 0 18px;
-    display: none;
-    background-color: white;
-    overflow: hidden;
-}
-
-.panel.show, .alt-panel.show {
-    display: block;
-}
-
-/* Kaydırma Stilleri*/
-
-.detay {
-    margin: 20px;
-    margin-top: 20px;
-}
 
 /* Metin renkleri*/
 
