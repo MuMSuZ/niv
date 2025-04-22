@@ -77,5 +77,5 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
     const dtf = ((inspiryum_kalinligi - ekspiryum_kalinligi) / ekspiryum_kalinligi) * 100;
     const nivTahmin = predictNIV(dtf);
 
-    document.getElementById('result').innerHTML = `DKF (%): ${dtf.toFixed(2)}<br><br>Tahmini NIV süresi (saat): ${nivTahmin.toFixed(2)}`;
+    document.getElementById('result').innerHTML = `DTF (%): ${dtf.toFixed(2)}<br><br>Estimated Duration of NIV (hour): ${nivTahmin.toFixed(2)}`;
 });
