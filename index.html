@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tahmini NIV Süresi</title>
+    <title>Estimated Duration of NIV</title>
     <link rel="stylesheet" href="niv.css">
     <script defer src="niv.js"></script>
 </head>
 <body>
         <header>
             <div class="container">
-                <h1>Tahmini NIV Süresi</h1>
+                <h1>Estimated Duration of NIV</h1>
             </div>
         </header>
         <div class="container mt-5">
             <form id="calc-form">
                 <div class="form-group">
-                    <label for="inspiryum">Inspiryum Kalınlığı: </label>
+                    <label for="inspiryum">End-inspiratory Diaphragm Thickness (mm): </label>
                     <input type="text" id="inspiryum" name="inspiryum"><br><br>
                 </div>
                 <div class="form-group">
-                    <label for="ekspiryum">Ekspiryum Kalınlığı:</label>
+                    <label for="ekspiryum">end-expiratory Diaphragm Thickness (mm):</label>
                     <input type="text" id="ekspiryum" name="ekspiryum"><br><br>
                 </div>
-                <button class="btn-29">
+                <!--<button class="btn-29">
                     <span class="text-container">
                       <span class="text">Hesapla</span>
                     </span>
@@ -31,9 +31,9 @@
                   <button class="btn-39">
                     <span class="new">Sonuç</span>
                     <span class="old">Hesapla</span>
-                  </button>
+                  </button>-->
                 <div class="button-container">
-                    <button class="calculate-btn" type="button" id="calculate-btn">Hesapla</button>
+                    <button class="calculate-btn" type="button" id="calculate-btn">Calculate</button>
                 </div>
             </form>
             <div class="result mt-4" id="result"></div>
